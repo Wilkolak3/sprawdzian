@@ -4,9 +4,9 @@ def licz():
 
     parzyste = 0
 
-    for str in str:
-        str = str.strip()
-        dlugosc = len(str)
+    for string in str:
+        string = string.strip()
+        dlugosc = len(string)
 
         if dlugosc % 2 == 0:
             parzyste += 1
